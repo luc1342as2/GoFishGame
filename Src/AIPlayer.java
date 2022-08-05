@@ -7,7 +7,7 @@
 
 import java.util.ArrayList;
 
-class AIPlayer extends Player {
+class AIPlayer extends Player { 
     public ArrayList<Card> queries = new ArrayList<Card>();
     private int age = 0;
 
@@ -16,17 +16,17 @@ class AIPlayer extends Player {
         do {
             Card book = checkForBooks();
             if (book != null)
-                System.out.println("The book your opponent got was " + book + "s...");
+                System.out.println("The book your opponent got was " + book + "s..."); //it print this when the other player gets 4 of akind.
             if (hand.size() == 0) {
-                System.out.print("There is nothing in your opponent's hand.");
+                System.out.print("There is nothing in your opponent's hand."); //it prints this when there are no other cards in your opponent's hand.
                 break;
             }
             Card req = aiMagic();
-            System.out.println("In response to your opponent's request for cards, he asks for " + req);
+            System.out.println("In response to your opponent's request for cards, he asks for " + req); //it prints this when the other player asks for a card.
             playing = askFor(req);
             age++;
         } while (playing);
-        System.out.println("Your opponent went fishing.");
+        System.out.println("Your opponent went fishing."); //this prints this message when the other player asks the wrong card.
         fish();
     }
 
