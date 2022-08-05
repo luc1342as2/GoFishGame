@@ -7,7 +7,7 @@
 import java.util.ArrayList;
 
 abstract class Player {
-    protected ArrayList<Card> hand = new ArrayList<Card>();
+    protected ArrayList<Card> hand = new ArrayList<Card>(); //number of cards in the player's hands.
     private int numBooks;
 
     public Player() {
