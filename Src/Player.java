@@ -33,7 +33,7 @@ abstract class Player {
         int tmp = 0;
         if (this instanceof HumanPlayer)
             tmp = 1;
-        Player other = GoFish.Players[tmp];
+        Player other = GoFish.Players[tmp]; 
 
         if (tmp == 1)
             ((AIPlayer) other).queries.add(cType);
@@ -51,14 +51,14 @@ abstract class Player {
         if (GoFish.deckSize() > 0)
             hand.add(GoFish.draw());
         else
-            System.out.println("The deck is empty.");
+            System.out.println("The deck is empty."); //it prints this message if there are no cards left in the deck.
     }
 
     public int getNumBooks() {
         return numBooks;
     }
 
-    protected Card checkForBooks() {
+    protected Card checkForBooks() { //this checks if there are 4 of a kind.
         for (Card c : hand) {
             int num = 0;
             for (Card d : hand)
