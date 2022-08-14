@@ -47,4 +47,3 @@ public class GoFish {
             System.out.println("It's a tie at " + yScore + " each!"); //it prints this if it's a draw.
     }
 }
-
