@@ -47,3 +47,4 @@ class HumanPlayer extends Player {
         fish();
     }
 }
+
