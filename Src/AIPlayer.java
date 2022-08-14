@@ -4,7 +4,6 @@
  * Ronak Sheth
  * 05/08/2022
 */
-
 import java.util.ArrayList;
 
 class AIPlayer extends Player { 
