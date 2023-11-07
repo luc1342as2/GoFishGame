@@ -1,7 +1,6 @@
 /**  
  * Lucas Ghigli 
  * HumanPlayer.java -> GoFish game
- * Ronak Sheth
  * 05/08/2022
 */
 import java.util.Scanner;
