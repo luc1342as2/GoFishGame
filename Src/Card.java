@@ -1,7 +1,6 @@
 /**  
  * Lucas Ghigli 
- * Card.java -> GoFish game
- * Ronak Sheth
+ * Card.java -> GoFish games
  * 05/08/2022
 */ 
  enum Card {
