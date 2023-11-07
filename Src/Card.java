@@ -1,6 +1,6 @@
 /**  
  * Lucas Ghigli 
- * Card.java -> GoFish games
+ * Card.java -> GoFish game
  * 05/08/2022
 */ 
  enum Card {
