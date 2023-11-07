@@ -1,6 +1,6 @@
 /**  
  * Lucas Ghigli 
- * AIPlayer.java -> GoFish games
+ * AIPlayer.java -> GoFish game
  * 05/08/2022
 */
 import java.util.ArrayList;
