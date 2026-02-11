@@ -12,6 +12,3 @@ Simple simulation of Go Fish rules
 
 Object-oriented structure ideal for learning or extension
 
-Foundational structure for adding UI or AI behavior
-
-Whether you’re exploring Java, building card game logic, or expanding it with graphics or smarter opponents, this repo offers a solid starting point for a classic card game experience.
